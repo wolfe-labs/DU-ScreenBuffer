@@ -1,0 +1,25 @@
+{
+  "name": "@wolfe-labs/ScreenBuffer",
+  "description": "Screen data buffering for Dual Universe",
+  "sourcePath": "src",
+  "outputPath": "out",
+  "builds": {
+    "LargeData_RS": {
+      "name": "test/LargeData/RenderScript",
+      "type": "screen",
+      "slots": {}
+    },
+    "LargeData": {
+      "name": "test/LargeData/ControlUnit",
+      "type": "control",
+      "slots": {}
+    }
+  },
+  "targets": {
+    "development": {
+      "name": "development",
+      "handleErrors": false,
+      "minify": false
+    }
+  }
+}
